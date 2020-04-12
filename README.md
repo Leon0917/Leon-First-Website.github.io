@@ -4,4 +4,8 @@
 
 About me web page.
 
+-----
 
+## License & copyright
+
+Carnagie.com 
