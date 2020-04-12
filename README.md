@@ -4,7 +4,13 @@
 
 About me web page.
 
------
+---
+
+## Contributors
+
+Leon Carnagie <leonfross@gmail.com>
+
+---
 
 ## License & copyright
 
