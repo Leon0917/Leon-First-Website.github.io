@@ -29,7 +29,6 @@ position: relative;
 .header ol{
     position: absolute;
     right: 40px;
-    color: #666666;
     list-style: none;
     }
 .header li{
@@ -70,16 +69,17 @@ hr {
     background-color: #ffffff;
     text-size-adjust: 20px;
     line-height: 1.6em;
-    font-family: 'Arial', 'Helvetica Neue', 'Helvetica', 'sans-serif'; 
+    font-family: 'Arial', 'Helvetica Neue', 'Helvetica', 'sans-serif';
+    padding: 10px; 
 }
 
-    /*floating my paragraph and photo*/
-    .photo{
+    /*Floating my paragraph and photo*/
+    .photo {
         width: 20%;
         float: left;
         margin: 20px;
     }
-    info .p{
+    info .p {
         width: 80%;
         float: right;
     }
@@ -89,7 +89,7 @@ hr {
     footer {
         width:100%;
         border: 1px solid black;
-        position: absolute;
+        position: fixed;
         text-align: center;
         border-top: 8px solid #4aaaa5; 
         background-color: #666666;
@@ -98,41 +98,28 @@ hr {
         left: 0px;
     }
     
-    /*STYLING MY CONACT.HTML HERE*/
+    /*STYLING MY CONTACT.HTML HERE*/
     .form-content{
     width:60%;      
-    border:2px solid greenyellow;
+    border:2px solid gainsboro;
     margin:auto;
     padding:2rem;
     font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
     font-size: 18px;
     }
-    .form-content input{
+    .form-content input {
         width: 100%;
     }
-    .form-content label{
+    .form-content label {
         display: block;
+        padding: 10px;
+        color: gainsboro;
     }
     .contact h2 {
         width:60%; 
         margin:auto;
     }
-     /* .name {
-        display: block;
-        width: 60%;    
-        padding:.5erm;    
-    }
-    .email {
-        
-        width: 60%;
-        padding:.5rem; 
-    }.message {
-        display: block;
-        width: 60%;
-        padding:.5rem; 
-    } */
-
-    .submit {
+     .submit {
         border:0;
         background-color:#4aaaa5;
         padding:.5rem;
@@ -141,3 +128,11 @@ hr {
         width: 10%;
     }
    
+    /*STYLING MY PORTFOLIO.HTML HERE*/
+    .my-photos {
+        display: block;
+        margin: auto;
+        padding: 40px;
+        width: 60%;
+        border: 2px solid gray;
+    }
