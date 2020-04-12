@@ -9,12 +9,16 @@ This is my first website where you will be able to learn a little about me, ther
 
 ---
 
-## Contributors
+### Contributors
 
 Leon Carnagie <leonfross@gmail.com>
 
 ---
 
-## License & copyright
+#### License & copyright
 
-Carnagie.com 
+Carnagie.com UC Berkeley
+
+Click the link below
+
+[Carnagie.com](https://github.com/Leon0917/Leon-First-Website.github.io)
